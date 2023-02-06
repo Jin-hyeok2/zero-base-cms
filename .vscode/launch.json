@@ -1,0 +1,21 @@
+{
+    "vmArgs" : [
+        "-Dmailgun.key="
+    ],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch UserApplication",
+            "request": "launch",
+            "mainClass": "com.example.cms.user.UserApplication",
+            "projectName": "user-api"
+        },
+        {
+            "type": "java",
+            "name": "Launch CmsApplication",
+            "request": "launch",
+            "mainClass": "com.example.cms.CmsApplication",
+            "projectName": "cms"
+        }
+    ]
+}
